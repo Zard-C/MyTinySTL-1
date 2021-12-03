@@ -458,7 +458,7 @@ static constexpr size_t ht_prime_list[] = {
 
 #endif
 
-// 找出最接近并大于等于 n 的那个质数
+// 找出最接近并大于等于 n 的那个质数 二分查找
 inline size_t ht_next_prime(size_t n)
 {
   const size_t* first = ht_prime_list;
